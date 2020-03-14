@@ -12,11 +12,6 @@ class Menu:
     """
 def __init__(self):
         self.Datos = datos()
-        self.options = {"1": self.show_notes,
-                        "2": self.search_notes,
-                        "3": self.add_note,
-                        "4": self.modify_note,
-                        "5": self.exit}
  def display_menu(self):
         """ Despliega el menú principal """
         print("""
